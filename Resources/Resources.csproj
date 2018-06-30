@@ -55,7 +55,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="resources\model\Carne.cs" />
+    <Compile Include="resources\model\CarritoCompra.cs" />
+    <Compile Include="resources\model\Compra.cs" />
     <Compile Include="resources\model\Producto.cs" />
+    <Compile Include="resources\model\FrutaVerdura.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
