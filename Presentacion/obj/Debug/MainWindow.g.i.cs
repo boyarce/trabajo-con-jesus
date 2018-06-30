@@ -40,6 +40,118 @@ namespace Presentacion {
     /// </summary>
     public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
+        
+        #line 11 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Grid supermercado;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 16 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Label lbl_run;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 17 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBox run_txt;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 18 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Label lbl_firstname;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 19 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBox nombre_txt;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 20 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Label lbl_producto;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 21 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Label lbl_cantidad;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 22 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBox cantidad_txt;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 23 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Label lbl_message_error;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 24 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.ComboBox producto_cbx;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 25 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.DataGrid lista_dgd;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 26 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button calcular_venta_btn;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 27 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button Agregar_btn;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 28 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button comprar_btn;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -68,6 +180,69 @@ namespace Presentacion {
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 1:
+            this.supermercado = ((System.Windows.Controls.Grid)(target));
+            return;
+            case 2:
+            this.lbl_run = ((System.Windows.Controls.Label)(target));
+            return;
+            case 3:
+            this.run_txt = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 4:
+            this.lbl_firstname = ((System.Windows.Controls.Label)(target));
+            return;
+            case 5:
+            this.nombre_txt = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 6:
+            this.lbl_producto = ((System.Windows.Controls.Label)(target));
+            return;
+            case 7:
+            this.lbl_cantidad = ((System.Windows.Controls.Label)(target));
+            return;
+            case 8:
+            this.cantidad_txt = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 9:
+            this.lbl_message_error = ((System.Windows.Controls.Label)(target));
+            return;
+            case 10:
+            this.producto_cbx = ((System.Windows.Controls.ComboBox)(target));
+            return;
+            case 11:
+            this.lista_dgd = ((System.Windows.Controls.DataGrid)(target));
+            
+            #line 25 "..\..\MainWindow.xaml"
+            this.lista_dgd.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.lista_dgd_SelectionChanged);
+            
+            #line default
+            #line hidden
+            return;
+            case 12:
+            this.calcular_venta_btn = ((System.Windows.Controls.Button)(target));
+            return;
+            case 13:
+            this.Agregar_btn = ((System.Windows.Controls.Button)(target));
+            
+            #line 27 "..\..\MainWindow.xaml"
+            this.Agregar_btn.Click += new System.Windows.RoutedEventHandler(this.Agregar_btn_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 14:
+            this.comprar_btn = ((System.Windows.Controls.Button)(target));
+            
+            #line 28 "..\..\MainWindow.xaml"
+            this.comprar_btn.Click += new System.Windows.RoutedEventHandler(this.button_Copy1_Click);
+            
+            #line default
+            #line hidden
+            return;
+            }
             this._contentLoaded = true;
         }
     }

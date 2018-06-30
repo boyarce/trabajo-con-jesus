@@ -24,5 +24,22 @@ namespace Presentacion
         {
             InitializeComponent();
         }
+
+        private void Agregar_btn_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+               
+            }
+            catch ( ex)
+            {
+                //captura de excepción y despliegue de mensaje
+                //en lbl_message_error de color rojo
+                lbl_message_error.Content = ex.Message;
+                lbl_message_error.Foreground = Brushes.Red;
+                Console.WriteLine(ex);
+            }
+        }
+    }
     }
 }
