@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\CETECOM\Desktop\p\trabajo-con-jesus\Resources\obj\Debug\
+=======
+C:\Users\CETECOM\Documents\Visual Studio 2015\Projects\WpfApplication3\Resources\obj\Debug\
+>>>>>>> edb742e718654348aee359f78eea0e3156042eed
 Resources
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\CETECOM\Desktop\p\trabajo-con-jesus\Resources\App.xaml
+=======
+C:\Users\CETECOM\Documents\Visual Studio 2015\Projects\WpfApplication3\Resources\App.xaml
+>>>>>>> edb742e718654348aee359f78eea0e3156042eed
 11151548125
 
 101196882776

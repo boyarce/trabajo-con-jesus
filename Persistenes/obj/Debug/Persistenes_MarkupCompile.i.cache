@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\CETECOM\Desktop\p\trabajo-con-jesus\Persistenes\obj\Debug\
+=======
+C:\Users\CETECOM\Documents\Visual Studio 2015\Projects\WpfApplication3\Persistenes\obj\Debug\
+>>>>>>> edb742e718654348aee359f78eea0e3156042eed
 Persistenes
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\CETECOM\Desktop\p\trabajo-con-jesus\Persistenes\App.xaml
+=======
+C:\Users\CETECOM\Documents\Visual Studio 2015\Projects\WpfApplication3\Persistenes\App.xaml
+>>>>>>> edb742e718654348aee359f78eea0e3156042eed
 11151548125
 
 91292032172
