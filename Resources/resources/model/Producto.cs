@@ -19,10 +19,42 @@ namespace Resources.resources.model
             PrecioUnitario = precioUnitario;
         }
 
-        public int Cantidad { get => cantidad; set => cantidad = value; }
+        
         public string Nombre { get => nombre; set => nombre = value; }
-        public int PrecioUnitario { get => precioUnitario; set => precioUnitario = value; }
+        
+        public int Cantidad
+        {
+            set{
 
+                if (value >= 0)
+                {
+                    this.cantidad = value;
+                }
+                else {
+                    throw new ArgumentNullException("La cantidad debe ser superior a caro '0' ");
+                }
+            }
+
+            get{ return cantidad; }
+           
+
+            }
+
+        public int PrecioUnitario
+        {
+            set {
+                if (value >= 0)
+                {
+                    this.precioUnitario = value;
+                }
+                else {
+                    throw new ArgumentException("El precio tiene que ser mayor a cero");
+                }
+            }
+
+            get { return precioUnitario; }
+        }
+        
         public override string ToString()
         {
             return "Cantidad: "+cantidad+" "+"Nombre: "+nombre+" "+"Precio-Unitario: "+precioUnitario;
