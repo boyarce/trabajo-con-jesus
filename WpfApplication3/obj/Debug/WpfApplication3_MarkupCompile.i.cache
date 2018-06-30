@@ -4,25 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
 C:\Users\CETECOM\Desktop\p\trabajo-con-jesus\WpfApplication3\obj\Debug\
-=======
-C:\Users\CETECOM\Documents\Visual Studio 2015\Projects\WpfApplication3\WpfApplication3\obj\Debug\
->>>>>>> edb742e718654348aee359f78eea0e3156042eed
 WpfApplication3
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
 C:\Users\CETECOM\Desktop\p\trabajo-con-jesus\WpfApplication3\App.xaml
-=======
-C:\Users\CETECOM\Documents\Visual Studio 2015\Projects\WpfApplication3\WpfApplication3\App.xaml
->>>>>>> edb742e718654348aee359f78eea0e3156042eed
 11151548125
 
 91292032172
 13738642453
 MainWindow.xaml;
 
-True
+False
 
