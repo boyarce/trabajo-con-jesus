@@ -15,6 +15,20 @@ namespace Resources.resources.model
             Tipo = tipo;
         }
 
-        public string Tipo { get => tipo; set => tipo = value; }
+        public string Tipo {
+
+            set {
+                if (!value.Equals("FR") || !value.Equals("BL") || !value.Equals("HT")
+                    || !value.Equals("LG") || !value.Equals("RC"))
+                {
+                    throw new ArgumentException("Los tipos no corresponden");
+                }
+                else {
+                    this.tipo = value;
+                }
+            }
+
+            get { return tipo; } 
+        }
     }
 }

@@ -17,7 +17,22 @@ namespace Resources.resources.model
             DescuentoCategoria = descuentoCategoria;
         }
 
-        public char Categoria { get => categoria; set => categoria = value; }
+        public char Categoria {
+
+            set {
+                if ('A' == value || 'B' == value || 'C' == value)
+                {
+                    this.categoria = value;
+                }
+                else {
+                    throw new ArgumentException("La categoria no Existe");
+                }
+            }
+
+            get { return categoria; }
+        }
         public double DescuentoCategoria { get => descuentoCategoria; set => descuentoCategoria = value; }
+
+
     }
 }
