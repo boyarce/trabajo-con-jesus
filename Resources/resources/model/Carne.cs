@@ -31,8 +31,29 @@ namespace Resources.resources.model
 
             get { return categoria; }
         }
-        public double DescuentoCategoria { get => descuentoCategoria; set => descuentoCategoria = value; }
+        public double DescuentoCategoria {
 
-
+            set {
+                if (this.categoria == 'A')
+                {
+                    value = 0.10;
+                    descuentoCategoria = value;
+                }
+                else if (this.categoria == 'B')
+                {
+                    value = 0.20;
+                    descuentoCategoria = value;
+                }
+                else if (this.categoria == 'C')
+                {
+                    value = 0.30;
+                    descuentoCategoria = value;
+                }
+                else {
+                    throw new ArgumentException("La categoria no existe");
+                } 
+            }
+            get { return descuentoCategoria; }
+        }
     }
 }
